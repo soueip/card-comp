@@ -1,0 +1,104 @@
+:root{
+  --darkBlue : hsl(212, 21%, 14%);
+  --grayBlue: hsl(228, 12%, 48%);
+  --whiteColor: hsl(0, 0%, 100%);
+}
+body {
+  background-color: #f3eae3;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', serif,'Montserrat', sans-serif;;
+  
+}
+.cart {
+  width: 37.5rem;
+  height: 28.125rem;
+  margin: 10% auto;
+  background:var(--whiteColor);
+  border-radius: 10px;
+  display: flex;
+}
+.cart img {
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+
+.content {
+  padding: 20px 35px;
+}
+.content .perfume {
+
+ 
+  letter-spacing: 3px;
+  color: var(--grayBlue);
+  font-size: 0.875rem;
+
+}
+.content h1 {
+  width: 90%;
+  font-weight: 700 bold;
+  
+  
+  
+}
+.content .para {
+ 
+  
+  line-height: 1.64;
+  color: var(--grayBlue);
+  font-size: 0.875rem;
+}
+.content h3 {
+  
+ 
+  color: #3b8469;
+  font-weight: 700 bold;
+  font-style: italic;
+  font-size: 1.5rem;
+  
+}
+span {
+  
+ 
+  color: var(--grayBlue);
+  font-weight:500 ;
+  font-size: x-small;
+  vertical-align: super;
+  text-decoration: line-through;
+  font-style: normal;
+ 
+}
+button svg{
+  margin-right: 7%;
+}
+button {
+  width: 90%;
+ 
+
+  padding: 2px;
+  color: #fff;
+  background-color: #3f8068;
+  border: 0;
+  outline: 0;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700 bold;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 768px){
+  .cart{
+    margin: 10% 10%;
+    flex-direction: column;
+    height: 42rem;
+  width: 343px;
+  }
+  .cart img {
+    width: 343px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+  }
+  .content {
+    padding: 10px 20px;
+  }
+}
